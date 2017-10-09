@@ -1,0 +1,23 @@
+@mixin navigation-horizontal($width: false, $margin: false) {
+  ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
+  }
+  a {
+    @if not $width {
+    } @else {
+      width: $width;
+    }
+  }
+  li {
+    float:left;
+    display: inline;
+    @if not $margin {
+    } @else {
+      margin:$margin;
+    }
+  }
+}
