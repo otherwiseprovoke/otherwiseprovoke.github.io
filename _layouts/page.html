@@ -1,0 +1,12 @@
+{% include head.html %}
+  <header>
+    {% include header.html %}
+    <h1>{{ page.title }}</h1>
+  </header>
+    <section class="content">
+      {% if page.permalink == "/projects/" %}
+        {% include projects.html %}
+      {% endif %}
+      {{ content }}
+    </section>
+{% include footer.html %}

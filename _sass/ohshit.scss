@@ -1,0 +1,37 @@
+// .masthead {
+//   @include grid-container;
+// }
+// .logo {
+//   @include grid-column(3);
+//   @include grid-push(4);
+// }
+.masthead {
+  @include flex;
+  @include flex-basis(100%);
+  @include flex-items-center;
+  @include flex-items-wrap;
+}
+.logo {
+  @include flex-item-width(20%);
+}
+.main-navigation {
+  @include flex;
+  @include flex-basis(100%);
+  @include flex-items-center;
+  font-family: $headings-font-family;
+  font-size: $font-size;
+  font-weight: $font-weight-bold;
+  color: black;
+  text-transform: uppercase;
+  & ul {
+    @include flex;
+    & a {
+      color: black;
+      text-decoration: none;
+      padding: 1rem 2rem;
+      &:hover {
+        border-bottom: 1px solid lightgrey;
+      }
+    }
+  }
+}

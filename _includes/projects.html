@@ -1,0 +1,9 @@
+<ul>
+{% for project in site.data.projects %}
+  <li>
+    <a href="{{ project.link }}">
+      {{ project.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

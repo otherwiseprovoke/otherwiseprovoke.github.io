@@ -1,15 +1,19 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+/* TEAM */
+Designer: Benjamin Kinzer
+Site: http://benjaminkinzer.com/
+Twitter: @benjaminkinzer
+Instagram: @benjaminkinzer
+Location: Oakland, CA, USA.
 
-# TEAM
+Research: Chloe Frommer
+Site: http://chloefrommer.com/
+Location: Oakland, CA, USA.
 
-    <name> -- <role> -- <twitter>
+/* THANKS */
+Code Guide: @mdo http://codeguide.co/ /* Thanks for such a great guide. */
 
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+/* SITE */
+Standards: HTML5, CSS3
+Components: Kube Framework, Sass, JQuery
+Software: Jekyll
+Hosting: GitHub Pages

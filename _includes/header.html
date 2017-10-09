@@ -1,0 +1,21 @@
+<div class="show-sm">
+    <a href="#" data-component="toggleme" data-target="#masthead">Toggle</a>
+</div>
+<header id="masthead" class="masthead hide-sm">
+  <div class="logo">
+    <a href="{{ site.url}}">
+      <img src="{{ site.url }}/images/otherwise.png" alt="OTHERWISE">
+    </a>
+  </div>
+  <nav  class="main-navigation" role="navigation">
+    <ul>
+    {% for nav in site.data.menu %}
+      <li>
+        <a href="{{ nav.link }}">
+          {{ nav.name }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</header>
